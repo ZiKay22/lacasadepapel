@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>La Casa Dapel Shop</title>
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+  <body class="bg-dark">
+    <header class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <a class="navbar-brand active " href="index.html">
+                <img src="log.png" width="100px" >
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-between"  id="navbarSupportedContent">
+                <ul class=" navbar-nav">
+                  <li class="nav-item ">
+                    <a class="nav-link text-danger " aria-current="page" href="shop.html">Shop</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-danger" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     About Us
+                    </a>
+                    <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown ">
+                      <li><a class="dropdown-item text-danger bg-dark" href="aboutusfilm.html">About Film</a></li>
+                      <li><a class="dropdown-item text-danger bg-dark" href="aboutusac.html">About Actors</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                    </ul>
+                  </li>
+
+
+
+
+
+
+                  
+                  <li class="nav-item bg-dark   text-light">
+                   
+                    <button type="button" class="btn btn-outline-danger mx-lg-2 my-2 my-lg-0" data-bs-toggle="modal" data-bs-target="#reg" data-bs-whatever="@getbootstrap">Registration</button>
+
+                    <div class="modal fade" id="reg" tabindex="-1" aria-labelledby="regLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                      
+                 
+                        <div class="card card-body bg-secondary text-white">
+                          <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">@</span>
+                            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                          </div>
+                          
+                          <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <span class="input-group-text" id="basic-addon2">@example.com</span>
+                          </div>
+                          
+                          <label for="basic-url" class="form-label">Your vanity URL</label>
+                          <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+                            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                          </div>
+                          
+                          <div class="input-group mb-3 ">
+                             
+                            <label for="exampleInputEmail1" class="form-label me-2">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            
+                          </div>
+                          
+                          <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+                            <span class="input-group-text">@</span>
+                            <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+                          </div>
+                          
+                          <div class="input-group">
+                            
+                              <label for="exampleInputPassword1" class="form-label me-2">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1">
+                              
+                              <a class=" text-danger btn btn-outline-danger bg-dark" aria-current="page" href="account.html">Submit</a>
+                          </div>
+</div>
+
+                          </div>
+                      </div>
+                      </div>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="btn btn-outline-danger mx-lg-2 my-2 my-lg-0" data-bs-toggle="modal" data-bs-target="#login" >Login</button>
+
+              <div class="modal fade " id="login" tabindex="-1" aria-labelledby="loginLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                
+                  
+                      <div class="card card-body bg-secondary text-white">
+                        <form>
+                          <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text text-dark">We'll never share your email with anyone else.</div>
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                          </div>
+                          <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                          </div>
+                          <a class=" text-danger btn btn-outline-danger bg-dark" aria-current="page" href="account.html">Submit</a>
+                        </form>
+                      </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                  </li>
+
+
+
+
+                  
+               
+               
+                </ul>
+             
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2 bg-dark btn btn-outline-danger" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-danger " type="submit">Search</button>
+                </form>
+              </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+<div class="container-fluid bg-dark">
+  <div class="row text-light">
+    <div class="col-12 col-md-6 my-3">
+    <div id="list-example" class="list-group">
+        <a class="list-group-item list-group-item-action text-danger text-bg-dark btn btn-outline-danger" href="#list-item-1">Premise</a>
+        <a class="list-group-item list-group-item-action text-danger text-bg-dark btn btn-outline-danger" href="#list-item-2">Production</a>
+        <a class="list-group-item list-group-item-action text-danger text-bg-dark btn btn-outline-danger" href="#list-item-3">Design</a>
+        <a class="list-group-item list-group-item-action text-danger text-bg-dark btn btn-outline-danger" href="#list-item-4">Filming</a>
+      </div>
+      <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example my-3" tabindex="0">
+        <h4 id="list-item-1">Premise</h4>
+        <p>
+            Set in Madrid, a mysterious man known as the "Professor" recruits a group of eight people, who choose city names as their aliases, to carry out an ambitious plan that involves entering the Royal Mint of Spain, and escaping with €984 million. After taking 67 people hostage inside the Mint, the team plans to remain inside for 11 days to print the money as they deal with elite police forces. In the events following the initial heist, the group's members are forced out of hiding and prepare for a second heist, with some additional members, this time aiming to escape with gold from the Bank of Spain, as they again deal with hostages and police forces.
+        </p>
+        <h4 id="list-item-2">Production</h4>
+        <p>
+            The series was conceived by screenwriter Álex Pina and director Jesús Colmenar during their years of collaboration since 2008.After finishing their work on the Spanish prison drama Locked Up (Vis a vis), they left Globomedia to set up their own production company, named Vancouver Media, in 2016. For their first project, they considered either filming a comedy or developing a heist story for television, with the latter having never been attempted before on Spanish television. Along with former Locked Up colleagues, they developed Money Heist as a passion project to try new things without outside interference.Pina was firm about making it a limited series, feeling that dilution had become a problem for his previous productions.
+
+Initially entitled Los Desahuciados (The Evicted) in the conception phase, the series was developed to subvert heist conventions and combine elements of the action genre, thrillers and surrealism, while still being credible. Pina saw an advantage over typical heist films in that character development could span a considerably longer narrative arc. Characters were to be shown from multiple sides to break the viewers' preconceptions of villainy and retain their interest throughout the show. Key aspects of the planned storyline were written down at the beginning, while the finer story beats were developed incrementally to not overwhelm the writers.Writer Javier Gómez Santander compared the writing process to the Professor's way of thinking, "going around, writing down options, consulting engineers whom you cannot tell why you ask them that," but noted that fiction allowed the police to be written dumber when necessary.
+
+The beginning of filming was set for January 2017, allowing for five months of pre-production.The narrative was split into two parts for financial considerations.The robbers' city-based code names, which Spanish newspaper ABC compared to the colour-based code names in Quentin Tarantino's 1992 heist film Reservoir Dogs,were chosen at random in the first part,although places with high viewership resonance were also taken into account for the new robbers' code names in part 3.The first five lines of the pilot script took a month to write, as the writers were unable to make the Professor or Moscow work as narrator.Ultimately, Tokyo was chosen as an unreliable narrator. Flashbacks and time-jumps increased the narrative complexity and made the story more fluid for the audience.The pilot episode required over 50 script versions until the producers were satisfied. Later scripts would be finished once per week to keep up with filming.
+        </p>
+        <h4 id="list-item-3">Design</h4>
+        <p>
+            The show's look and atmosphere were developed by creator Álex Pina, director Jesús Colmenar, and director of photography Migue Amoedo, according to La Vanguardia "the most prolific television trio in recent years". Abdón Alcañiz served as art director. Their collaboration projects usually take a primary colour as a basis; Money Heist had red as "one of the distinguishing features of the series" that stood over the gray sets. Blue, green and yellow were marked as a forbidden colour in production design. To achieve "absolute film quality", red tones were tested with different types of fabrics, textures and lighting. The iconography of the robbers' red jumpsuits mirrored the yellow prison dress code in Locked Up. For part 3, the Italian retail clothing company Diesel modified the red jumpsuits to better fit the body and launched a clothing line inspired by the series.Salvador Dalí was chosen as the robbers' mask design because of Dalí's recognisable visage that also serves as an iconic cultural reference to Spain; Don Quixote as an alternative mask design was discarded. This choice sparked criticism by the Gala-Salvador Dalí Foundation for not requesting the necessary permissions.
+
+To make the plot more realistic, the producers requested and received advice from the national police and the Spanish Ministry of Interior. The robbers' banknotes were printed with permission of the Bank of Spain and had an increased size as an anti-counterfeit measure.The greater financial backing of Netflix for part 3 allowed for the build of over 50 sets across five basic filming locations world-wide. Preparing a remote and uninhabited island in Panama to represent a robber hide-out proved difficult, as it needed to be cleaned, secured and built on, and involved hours-long travelling with material transportation. The real Bank of Spain was unavailable for visiting and filming for security reasons, so the producers recreated the Bank on a two-level stage by their own imagining, taking inspiration from Spanish architecture of the Francisco Franco era.Publicly available information was used to make the Bank's main hall set similar to the real location. The other interior sets were inspired by different periods and artificially aged to accentuate the building's history.Bronze and granite sculptures and motifs from the Valle de los Caídos were recreated for the interior, and over 50 paintings were painted for the Bank to emulate the Ateneo de Madrid.
+        </p>
+        <h4 id="list-item-4">Filming</h4>
+        <p>
+            Parts 1 and 2 were filmed back-to-back in the greater Madrid region from January until August 2017.The pilot episode was recorded in 26 days, while all other episodes had around 14 filming days.[Production was split into two units to save time, with one unit shooting scenes involving the Professor and the police, and the other filming scenes with the robbers. The main storyline is set in the Royal Mint of Spain in Madrid, but the exterior scenes were filmed at the Spanish National Research Council (CSIC) headquarters for its passing resemblance to the Mint, and on the roof of the Higher Technical School of Aeronautical Engineers, part of the Technical University of Madrid. The hunting estate where the robbers plan their coup was filmed at the Finca El Gasco farm estate in Torrelodones. Interior filming took place at the former Locked Up sets in Colmenar Viejo and at the Spanish national daily newspaper ABC in Torrejón de Ardoz for printing press scenes. As the show was designed as a limited series, all sets were destroyed once production of part 2 had finished.
+
+Parts 3 and 4 were also filmed back-to-back, with 21 to 23 filming days per episode. Netflix announced the start of filming on 25 October 2018, and filming of part 4 ended in August 2019. In 2018, Netflix had opened their first European production hub in Tres Cantos near Madrid for new and existing Netflix productions main filming moved there onto a set three times the size of the set used for parts 1 and 2. The main storyline is set in the Bank of Spain in Madrid, but the exterior was filmed at the Ministry of Development complex Nuevos Ministerios. A scene where money is dropped from the sky was filmed at Callao Square. Ermita de San Frutos in Carrascal del Río served as the exterior of the Italian monastery where the robbers plan the heist.The motorhome scenes of the Professor and Lisbon were filmed at the deserted Las Salinas beaches in Almería to make the audience feel that the characters are safe from the police although their exact location is undisclosed at first. Underwater scenes inside the vault were filmed at Pinewood Studios in the United Kingdom. The beginning of part 3 was also filmed in Thailand, on the Guna Yala islands in Panama, and in Florence, Italy, which helped to counter the claustrophobic feeling of the first two parts, but was also an expression of the plot's global repercussions.[58] Filming for the fifth and final season concluded on 14 May 2021.
+        </p>
+
+        </div>
+
+    </div>
+    <div class="col-12 col-md-6 ">
+     <img src="lcdp.jpg" class="img-fluid my-3">
+     <img src="lcpd1.jpg" class="img-fluid my-3">
+     <img src="lcdp3.jpg" class="img-fluid my-3"> 
+     <img src="lcdptokio.jpg" class="img-fluid my-3">
+     <img src="lcdp4.jpg" class="img-fluid my-3"> 
+     <img src="lcdp5.jpg" class="img-fluid my-2"> 
+      </div>
+</div>
+</div>
+  
+  
+<div class="container-fluid  ">
+
+<div class="row text-danger justify-content-between bg-dark">
+ 
+      <hr class="text-danger border-3 opacity-75">
+   
+ <div class="col-6 col-md-6 ">
+  <a href="https://www.instagram.com/lacasadepapel/?__coig_restricted=1" class="text-decoration-none text-danger"><i class="ms-3 bi bi-instagram"></i></a>
+
+  <a href="https://www.youtube.com/c/lacasadepapel/videos" class="text-decoration-none text-danger"> <i class="ms-3 bi bi-youtube" ></i></a>
+  <a href="https://twitter.com/lacasadepapel" class="text-decoration-none text-danger"> <i class="ms-3 bi bi-twitter"></i></a>
+ </div>
+ <div class="col-6 col-md-6 text-end">
+
+  <a href="" class="text-decoration-none text-danger">By Zi_Kay</a>
+</div>
+</div>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
